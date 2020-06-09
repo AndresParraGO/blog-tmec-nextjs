@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import App from './_app.js'
+import App from '../_app.js'
 
 import Header from '../components/header.js'
 import Footer from '../components/footer.js'
