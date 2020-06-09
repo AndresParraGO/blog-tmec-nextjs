@@ -6,6 +6,8 @@ export default function App() {
     <div>
       <style jsx global>{`
 
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;800;900&display=swap');
+
         :root {
           --firstColor: #EF7731;
           --firstColorAlt: #EF5A31;
@@ -31,7 +33,7 @@ export default function App() {
 
 
         body {
-          font-family: 'Inter', sans-serif, verdana;
+          font-family: 'Raleway', sans-serif, verdana;
           font-size: var(--fzDefault);
           color: var(--firstTextColor);
         }
@@ -45,7 +47,13 @@ export default function App() {
           list-style: none;
         }
 
-
+        
+        .container {
+          width: 90%;
+          max-width: 1100px;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
 
         main {

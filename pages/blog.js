@@ -9,6 +9,7 @@ export default function Blog() {
   return (
     <div>
       <Head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
         <title>Blog - TMEC</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -2,6 +2,8 @@
 import React from 'react'
 
 import Menu from './menu.js'
+import Banner from './banner.js'
+import Significado from './significado.js'
 
 function Header() {
   return(
@@ -31,6 +33,10 @@ function Header() {
       </header>
 
       <Menu />
+
+      <Banner />
+
+      <Significado />
     </>
   )
 }
