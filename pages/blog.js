@@ -5,18 +5,18 @@ import Header from '../components/header.js'
 import Footer from '../components/footer.js'
 
 
-export default function Home() {
+export default function Blog() {
   return (
     <div>
       <Head>
-        <title>TMEC</title>
+        <title>Blog - TMEC</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Header />
 
       <main>
-       <h1>Inicio</h1>
+        <h1>Blog</h1>
       </main>
 
       <Footer />
