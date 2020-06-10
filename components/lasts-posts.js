@@ -2,37 +2,29 @@
 import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
 
-import getData from '../services/api.js'
-
 import Card from './card.js'
 
+import postsJSON from '../database/posts.json'
 
 function LastsPosts() {
   const [posts, setPosts] = useState([])
 
-  async function data() {
-    const dataFetch = await getData()
-    setPosts(dataFetch.data.posts.reverse())
-  }
-
   useEffect(() => {
-    data()
+    setPosts(postsJSON.posts)
   }, [])
 
-  if(!posts) {
-    return <span>Loading ...</span>
-  }
+  // if(!posts) {
+  //   return <span>Loading ...</span>
+  // }
 
-  let i = 0
 
   return (
     <div className="posts container">
       <h1>Ultimos Posts</h1>
       <section className="lasts-posts">
         {
-          posts.map(({ title, id, description, img, path }) => {
-            i++
-            if(i <= 3) {
+          posts.map(({ title, id, description, img, path }, index) => {
+            if (index < 3) {
               return (
                 <Card
                   title={title}
@@ -47,11 +39,25 @@ function LastsPosts() {
         }
       </section>
 
+      <div className="center">
+        <Link href="/blog">
+          <a className="btn">Más Posts</a>
+        </Link>
+      </div>
+
       <style jsx>{`
         .posts {
           margin-top:4em;
           margin-bottom:4em;
         }
+
+
+        .posts .btn {
+          padding: 0 2em;
+          margin-top: 2em;
+          font-size: 1.2em;
+        }
+        
 
         .lasts-posts {
           display: grid;
@@ -65,6 +71,7 @@ function LastsPosts() {
         @media screen and (min-width: 960px) {
           grid-template-columns: repeat(3, 1fr);
         }
+        
       `}</style>
     </div>
   );

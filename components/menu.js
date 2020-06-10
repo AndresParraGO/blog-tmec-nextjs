@@ -29,9 +29,7 @@ function Menu() {
       <style jsx>{`
       .navbar {
         padding: 1em 0;
-        border-bottom: 1px solid var(--borderColor);
-        border-top: 1px solid var(--borderColor);
-        box-shadow: 0 1px 5px 0 var(--borderColor);
+        background-color: var(--firstColor);
       }
 
       .navbar__menu {
@@ -43,7 +41,7 @@ function Menu() {
       }
 
       .nav__link {
-        color:var(--firstTextColor);
+        color:var(--textColorAlt);
         font-weight: 700;
         text-transform: uppercase;
         font-size: 1.1em;

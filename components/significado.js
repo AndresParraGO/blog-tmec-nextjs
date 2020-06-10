@@ -48,18 +48,14 @@ function Banner() {
     
 
         .about__text {
-
-          padding: 1em;
+          height: 100%;
+          padding: 0 1em;
           text-align: center;
+          
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-
-          position: relative;
-          z-index: 20;
-
-          overflow: hidden;
         }
 
         .about__title {
@@ -68,9 +64,6 @@ function Banner() {
           font-weight: 900;
         }
 
-        .about__text p {
-          font-weight: 300;
-        }
 
 
         .about__btn {
@@ -111,10 +104,6 @@ function Banner() {
 
 
         @media screen and (min-width: 960px) {
-          
-          .about__title {
-            margin-top: -3em;
-          }
 
           .about__text__img {
               display: block;

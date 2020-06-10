@@ -55,6 +55,23 @@ export default function App() {
           margin-right: auto;
         }
 
+        .btn {
+          display: inline-block;
+          padding: 0 1em;
+          border-radius: 3px;
+          height: 35px;
+          line-height: 35px;
+          background-color: var(--firstColor);
+          color: var(--textColorAlt);
+        }
+
+        .btn:hover {
+          background-color: var(--firstColorAlt);
+        }
+
+        .center {
+          text-align:center;
+        }
 
         main {
           margin: 2em 0;

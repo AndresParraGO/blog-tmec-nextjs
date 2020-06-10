@@ -75,6 +75,15 @@ function Card( {title, description, path, img} ) {
         .card__footer span {
           padding-left: 1em;
         }
+
+
+        @media screen and (min-width: 960px) {
+          
+          .card__img {
+            height: 200px;
+          }
+
+        }
       `}</style>
     </article>
   );

@@ -1,62 +1,48 @@
 
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
 
+import postsJSON from '../database/posts.json'
 
 function Banner() {
+  const [posts, setPosts] = useState([])
+
+  useEffect(() => {
+    setPosts(postsJSON.posts)
+  }, [])
+
   return(
     <div className="banner">
       <div className="banner__slider">
         <div className="banner__slider__bg"></div>
-        <div className="banner__slider__text">
-          <h3>"Día de formateo"</h3>
-          <div>
-            <p>01 May 2020</p><Link href="/dia-de-formateo"><a><i className="fas fa-angle-right"></i></a></Link>
-          </div>
-        </div>
       </div>
 
       <div className="banner__featured" id="banner-posts">
-        <Link href="#">
-          <div className="banner__featured__post">
-            <div>
-              <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fque-es-un-algoritmo-featured.png?alt=media&token=e1f6b025-de63-4829-92f5-908e0769bd8c" alt="" />
-            </div>
-            <div className="featured__post__text">
-              <p>22 de mayo de 2020</p>
-              <h4>Algoritmo de mayor y menor</h4>
-            </div>
-          </div>
-        </Link>
-
-        <Link href="#">
-          <div className="banner__featured__post">
-            <div>
-              <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fque-es-un-algoritmo-featured.png?alt=media&token=e1f6b025-de63-4829-92f5-908e0769bd8c" alt="" />
-            </div>
-            <div className="featured__post__text">
-              <p>22 de mayo de 2020</p>
-              <h4>Algoritmo de mayor y menor</h4>
-            </div>
-          </div>
-        </Link>
-
-        <Link href="#">
-          <div className="banner__featured__post">
-            <div>
-              <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fque-es-un-algoritmo-featured.png?alt=media&token=e1f6b025-de63-4829-92f5-908e0769bd8c" alt="" />
-            </div>
-            <div className="featured__post__text">
-              <p>22 de mayo de 2020</p>
-              <h4>Algoritmo de mayor y menor</h4>
-            </div>
-          </div>
-        </Link>
+        {
+          posts.map(({ title, id, description, img, path, date }, index) => {
+            if(index < 3) {
+              return (
+                <Link key={index} href={path}>
+                  <a>
+                    <div className="banner__featured__post">
+                      <div>
+                        <img src={img} alt={title} />
+                      </div>
+                      <div className="featured__post__text">
+                        <p>{date}</p>
+                        <h4>{title}</h4>
+                      </div>
+                    </div>
+                  </a>
+                </Link>
+              )
+            }
+          })
+        }
       </div>
 
        <style jsx>{`
         .banner {
-          margin-top: 2em;
           width: 100%;
         }
 
@@ -64,7 +50,7 @@ function Banner() {
         .banner__slider {
           background-image: url(https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-formateo-IMG-1.jpg?alt=media&token=b02f48fa-a158-4b71-9c92-ecfb520bde0a);
           width: 100%;
-          padding: 5em 0;
+          padding: 10em 0;
           background-position: center;
           background-size: cover;
 
@@ -154,6 +140,7 @@ function Banner() {
           display: flex;
           align-items: center;
           color:var(--textColorAlt);
+          margin: 1em;
         }
 
         .banner__featured__post img {
@@ -179,7 +166,8 @@ function Banner() {
 
 
         @media screen and (max-width: 650px) {
-            
+         
+
           .btn {
             display: none;
           }
@@ -194,12 +182,13 @@ function Banner() {
         @media screen and (min-width: 960px) {
 
           .banner {
-            height: 20em;
+            height: 25em;
             display: flex;
           }
 
           .banner__slider {
             width: 70%;
+    
           }
 
           .banner__slider__text h3 {
@@ -208,6 +197,10 @@ function Banner() {
 
           .banner__featured {
             width: 30%;
+          }
+
+          .banner__featured__post {
+            margin: 0;
           }
 
         }
