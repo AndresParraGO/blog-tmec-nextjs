@@ -5,6 +5,7 @@ import App from '../_app.js'
 import Header from '../components/header.js'
 import Footer from '../components/footer.js'
 import LastsPosts from '../components/lasts-posts.js'
+import Sentence from  '../components/frase.js'
 
 
 export default function Home() {
@@ -16,8 +17,9 @@ export default function Home() {
       </Head>
       
       <Header />
-
       <LastsPosts />
+      <Sentence />
+
 
       <main>
        <h1>Inicio</h1>
