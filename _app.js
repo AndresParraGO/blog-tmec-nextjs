@@ -20,7 +20,7 @@ export default function App() {
           --bgBody: #fff;
           --bgFooter: #323232;
 
-          --fzDefault: 14px;
+          --fzDefault: 16px;
         }
 
         *,
@@ -100,6 +100,25 @@ export default function App() {
         .page-post .mt{margin-top: 1em;}
 
         .page-post .mb{margin-bottom: 1em;}
+
+        .page-post p {
+          margin-bottom: .5em;
+        }
+
+        .page-post img {
+          margin-bottom: 2em;
+        }
+
+
+        @media screen and (max-width: 650px) {
+
+          .page-post .h1{font-size: 2em;}
+
+          .page-post .h2{font-size: 1.8em;}
+
+          .page-post .h3{font-size: 1.2em;}
+
+        }
 
       `}</style>
     </div>
