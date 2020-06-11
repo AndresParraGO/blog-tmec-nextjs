@@ -7,7 +7,7 @@ function Banner() {
   return(
     <div className="container">
       <section className="about">
-        <img className="about__img" src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-la-mujer.jpg?alt=media&amp;token=3f39fab5-ec8e-4b30-8d9a-9975308bfb5d" alt="Día de la mujer - TMEC" />
+        <img className="about__img" src="/images/dia-de-la-mujer.jpg" alt="Día de la mujer - TMEC" />
 
         <div className="about__bg"></div>
         <div className="about__text">

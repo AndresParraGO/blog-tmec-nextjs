@@ -35,7 +35,7 @@ export default function Nosotros() {
         <section className="page-post">
           <h2 className="h1 mb">Algoritmo para saber cual es el número mayor y el número menor - Diagramas de Flujo</h2>
 
-          <video src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/videos%2FAlgoritmo-mayor-menor.mp4?alt=media&token=469595b7-65f2-49af-b72d-d79be130fd8a" controls alt="Algoritmo de mayor y menor - TMEC con diagrama de flujo"></video>
+          <video src="/videos/Algoritmo-mayor-menor.mp4" controls alt="Algoritmo de mayor y menor - TMEC con diagrama de flujo"></video>
         </section>
         
         <PostsRecomendados />

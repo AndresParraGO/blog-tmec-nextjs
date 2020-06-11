@@ -6,7 +6,7 @@ export default function App() {
     <div>
       <style jsx global>{`
 
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;800;900&display=swap');
+        @import url('http://fonts.googleapis.com/css2?family=Raleway:wght@300;400;800;900&display=swap');
 
         :root {
           --firstColor: #EF7731;

@@ -36,7 +36,7 @@ export default function Nosotros() {
           <h2 className="h1 mb">Día de formateo y limpieza de los portatiles de clase - TMEC</h2>
           <h3>Es este día nos encargamos de formatear equipos, instalando su respectivo sistema operativo y los programas básicos del día a día.</h3>
 
-          <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-formateo-IMG-1.jpg?alt=media&token=b02f48fa-a158-4b71-9c92-ecfb520bde0a" alt="Estudiantes de la técnica de cómputo - TMEC"/>
+          <img src="/images/dia-de-formateo-IMG-1.jpg" alt="Estudiantes de la técnica de cómputo - TMEC"/>
 
           <p>Trabajamos todos en equipo ya que debíamos terminar cada uno con su equipo, nos ayudamos entre otros para aprender.</p>
 
@@ -49,9 +49,9 @@ export default function Nosotros() {
           </ul>
 
           <h5 className="h3">Imágenes</h5>
-          <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-formateo-IMG-2.jpg?alt=media&token=f0e44512-a9f0-478a-8412-56105fa875c2" alt="Alumnos de la técnica de cómpúto de colmabrija - TMEC"/>
-          <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-formateo-IMG-7.jpg?alt=media&token=1e2cfc6b-075a-4e73-a2aa-0da7898c0718" alt="Alumno instalando microsoft office - TMEC"/>
-          <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-formateo-IMG-5.jpg?alt=media&token=54ae02f3-eba3-4206-bfde-2c36369e27a9" alt="Reparando laptop, cambio de disco duro - TMEC"/>
+          <img src="/images/dia-de-formateo-IMG-2.jpg" alt="Alumnos de la técnica de cómpúto de colmabrija - TMEC"/>
+          <img src="/images/dia-de-formateo-IMG-7.jpg" alt="Alumno instalando microsoft office - TMEC"/>
+          <img src="/images/dia-de-formateo-IMG-5.jpg" alt="Reparando laptop, cambio de disco duro - TMEC"/>
 
         </section>
 

@@ -21,7 +21,7 @@ function PostsRecomendados() {
           posts.map(({ title, img, path }, index) => {
             if (index < 3) {
               return (
-                <Link href={path}>
+                <Link key={index} href={path}>
                   <img key={index} src={img} alt={title + ' - TMEC'} />
                 </Link>
               )
