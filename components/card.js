@@ -29,6 +29,7 @@ function Card( {title, description, path, img} ) {
         .card__img {
           width: 100%;
           border-radius: 5px 5px 0 0;
+          objet-fit: cover;
         }
 
         .post__text {

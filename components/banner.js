@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 import postsJSON from '../database/posts.json'
 
+
 function Banner() {
   const [posts, setPosts] = useState([])
 

@@ -13,11 +13,6 @@ function LastsPosts() {
     setPosts(postsJSON.posts)
   }, [])
 
-  // if(!posts) {
-  //   return <span>Loading ...</span>
-  // }
-
-
   return (
     <div className="posts container">
       <h1>Ultimos Posts</h1>
@@ -65,11 +60,15 @@ function LastsPosts() {
         }
 
         @media screen and (max-width: 650px) {
-          grid-template-columns: repeat(1, 1fr);
+          .lasts-posts {
+            grid-template-columns: repeat(1, 1fr);
+          }
         }
 
         @media screen and (min-width: 960px) {
-          grid-template-columns: repeat(3, 1fr);
+          .lasts-posts {
+            grid-template-columns: repeat(3, 1fr);
+          }
         }
         
       `}</style>

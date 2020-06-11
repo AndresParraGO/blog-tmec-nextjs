@@ -77,6 +77,30 @@ export default function App() {
           margin: 2em 0;
         }
 
+        .page-post {
+          border-top: 3px solid var(--firstColor);
+          padding-top: 1em;
+          max-width: 700px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        video, img {
+          width: 100%;
+          display:block;
+        }
+
+
+        .page-post .h1{font-size: 3em;}
+
+        .page-post .h2{font-size: 2.2em;}
+
+        .page-post .h3{font-size: 1.5em;}
+
+        .page-post .mt{margin-top: 1em;}
+
+        .page-post .mb{margin-bottom: 1em;}
+
       `}</style>
     </div>
   )
