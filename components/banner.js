@@ -49,7 +49,7 @@ function Banner() {
 
 
         .banner__slider {
-          background-image: url(https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-formateo-IMG-1.jpg?alt=media&token=b02f48fa-a158-4b71-9c92-ecfb520bde0a);
+          background-image: url(/images/dia-de-formateo-IMG-1.jpg);
           width: 100%;
           padding: 10em 0;
           background-position: center;
