@@ -162,13 +162,12 @@ export default function App() {
 
 
         .page-post .h1{font-size: 3em;}
-
         .page-post .h2{font-size: 2.2em;}
-
         .page-post .h3{font-size: 1.5em;}
+        .page-post .h4{font-size: 1.2em;}
+
 
         .page-post .mt{margin-top: 1em;}
-
         .page-post .mb{margin-bottom: 1em;}
 
         .page-post p {
@@ -183,10 +182,9 @@ export default function App() {
         @media screen and (max-width: 650px) {
 
           .page-post .h1{font-size: 2em;}
-
           .page-post .h2{font-size: 1.8em;}
-
           .page-post .h3{font-size: 1.2em;}
+          .page-post .h4{font-size: 1.1em;}
 
         }
 
