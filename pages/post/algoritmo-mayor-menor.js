@@ -18,11 +18,11 @@ export default function Nosotros() {
         <meta property="twitter:creator" content="@AndresParraGar4" />
         <meta property="twitter:title" content="Algoritmo de número mayor y menor - TMEC" />
         <meta property="twitter:description" content="TMEC - Algoritmo para saber cual es el número mayor y el número menor - Diagramas de Flujo. Cómputo Colmabrija." />
-        <meta property="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fque-es-un-algoritmo-featured.png?alt=media&token=e1f6b025-de63-4829-92f5-908e0769bd8c" />
+        <meta property="twitter:image" content="/images/que-es-un-algoritmo-featured.png" />
         
         <meta property="og:title" content="Algoritmo de número mayor y menor - TMEC" />
         <meta property="og:description" content="TMEC - Algoritmo para saber cual es el número mayor y el número menor - Diagramas de Flujo. Cómputo Colmabrija." />
-        <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fque-es-un-algoritmo-featured.png?alt=media&token=e1f6b025-de63-4829-92f5-908e0769bd8c" />
+        <meta property="og:image" content="/images/que-es-un-algoritmo-featured.png" />
 
         <title>Algoritmo de mayor y menor - TMEC</title>
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
@@ -35,7 +35,8 @@ export default function Nosotros() {
         <section className="page-post">
           <h2 className="h1 mb">Algoritmo para saber cual es el número mayor y el número menor - Diagramas de Flujo</h2>
 
-          <video src="/videos/Algoritmo-mayor-menor.mp4" controls alt="Algoritmo de mayor y menor - TMEC con diagrama de flujo"></video>
+
+          <iframe src="https://player.vimeo.com/video/420842065" width="640" height="564" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
         </section>
         
         <PostsRecomendados />
@@ -46,6 +47,12 @@ export default function Nosotros() {
 
       {/* Styles Global */}
       <App />
+
+      <style jsx>{`
+        .page-post iframe {
+          width: 100%;
+        }
+      `}</style>
     </div>
   )
 }
