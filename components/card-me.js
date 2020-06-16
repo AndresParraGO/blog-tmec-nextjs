@@ -13,15 +13,15 @@ function CardMe() {
 
         <div className="card__me__social">
           <a href="https://github.com/AndresParraGO" target="_blank">
-            <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="Icono de Github" />
+            <img src="/logos/github-logo.png" alt="Icono de Github" />
           </a>
 
           <a href="https://twitter.com/AndresParraGar4" target="_blank">
-            <img src="https://brandeame.es/wp-content/uploads/2017/05/60414c58e954d7236837248225e0216f_new-twitter-logo-vector-eps-twitter-logo-clipart-png_518-518.png" alt="Icono de Twitter" />
+            <img src="/logos/twitter-logo.png" alt="Icono de Twitter" />
           </a>
 
           <a href="https://www.linkedin.com/in/andres-parra-garz%C3%B3n-37529919a/" target="_blank">
-            <img src="https://4.bp.blogspot.com/-CQh-IGKtM2Y/XE9D2ReVFbI/AAAAAAAAHcU/SMBvdgTWLu0VjCkIDAoBWCGYhld-GxB0QCK4BGAYYCw/s1600/icon-linkedin.png" alt="Icono de Linkedin" />
+            <img src="/logos/icon-linkedin.png" alt="Icono de Linkedin" />
           </a>
         </div>
       </div>
