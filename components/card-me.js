@@ -20,7 +20,7 @@ function CardMe() {
             <img src="/logos/twitter-logo.png" alt="Icono de Twitter" />
           </a>
 
-          <a href="https://www.linkedin.com/in/andres-parra-garz%C3%B3n-37529919a/" target="_blank">
+          <a href="https://www.linkedin.com/in/andr%C3%A9s-alfonso-parra-garz%C3%B3n-37529919a/" target="_blank">
             <img src="/logos/icon-linkedin.png" alt="Icono de Linkedin" />
           </a>
         </div>

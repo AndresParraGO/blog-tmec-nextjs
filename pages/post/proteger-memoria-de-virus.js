@@ -25,6 +25,9 @@ export default function Nosotros() {
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fproteger-memoria-banner.jpg?alt=media&token=ea3ac750-2e65-48c4-be9b-9250b97bb51c" />
 
         <title>Cómo proteger nuestras memorias de los virus - TMEC</title>
+        <meta name="description" content="TMEC - Como proteger nuestras memorias sin duda es importante. Veremos con unos sencillo pasos como protegerla de los virus. Cómputo Colmabrija." /> 
+        <meta name="keywords" content="tmec, colmabrija, compúto, tecnología, protección, memorias, malwares, virus, windows, pc, laptops." />  
+
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 

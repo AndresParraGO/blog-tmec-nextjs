@@ -22,6 +22,9 @@ export default function Blog() {
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-la-mujer.jpg?alt=media&token=3f39fab5-ec8e-4b30-8d9a-9975308bfb5d" />
 
         <title>Blog - TMEC</title>
+        <meta name="description" content="TMEC - Blog de tmec , articulos de tecnología." /> 
+        <meta name="keywords" content="tmec, colmabrija, compúto, tecnología, zoom, técnica, blog, algoritmos, computadores, software, programación, web, javascript, virus." />  
+
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 

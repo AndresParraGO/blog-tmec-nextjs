@@ -25,6 +25,9 @@ export default function Nosotros() {
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fproteger-memoria-banner.jpg?alt=media&token=ea3ac750-2e65-48c4-be9b-9250b97bb51c" />
 
         <title>Día de formateo y limpieza de los portatiles de clase - TMEC</title>
+        <meta name="description" content="TMEC - Es este día nos encargamos de formatear equipos, instalando su respectivo sistema operativo y los programas básicos del día a día. Cómputo Colmabrija" /> 
+        <meta name="keywords" content="tmec, colmabrija, compúto, tecnología, formateo, comunidad, estudiantes, colegio, técnica, programas, software." /> 
+
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 

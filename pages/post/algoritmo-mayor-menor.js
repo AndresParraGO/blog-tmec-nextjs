@@ -25,6 +25,9 @@ export default function Nosotros() {
         <meta property="og:image" content="/images/que-es-un-algoritmo-featured.png" />
 
         <title>Algoritmo de mayor y menor - TMEC</title>
+        <meta name="description" content="TMEC - Algoritmo para saber cual es el número mayor y el número menor - Diagramas de Flujo. Cómputo Colmabrija." /> 
+        <meta name="keywords" content="tmec, colmabrija, compúto, tecnología, algoritmos, programación, software, diagramas, diagramas de flujo, vimeo." /> 
+
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 

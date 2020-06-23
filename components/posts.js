@@ -10,7 +10,7 @@ function Posts() {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
-    setPosts(postsJSON.posts)
+    setPosts(postsJSON.posts.reverse())
   }, [])
 
   return(

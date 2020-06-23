@@ -25,6 +25,9 @@ export default function Nosotros() {
         <meta property="og:image" content="/images/formateo-banner.jpg" />
 
         <title>Formateo de un computador, instalandole windows 7 - TMEC</title>
+        <meta name="description" content="TMEC - Aquí te mostraremos como instalamos Windows 7 en una laptop, formateando el equipo con un dispositivo USB. Cómputo Colmabrija." /> 
+        <meta name="keywords" content="tmec, colmabrija, compúto, tecnología, formateo, instalación, windows, windows 7, computadores, laptops, usb, vimeo." />
+
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 

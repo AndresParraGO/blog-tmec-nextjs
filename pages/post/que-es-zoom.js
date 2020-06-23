@@ -21,10 +21,13 @@ export default function Nosotros() {
         <meta property="twitter:image" content="/images/zoom-banner.jpg" />
         
         <meta property="og:title" content="¿Qué es ZOOM y como instalarlo? - TMEC" />
-        <meta property="og:description" content="TMEC - En este pequeño post te explicaremos que es, para que sirve y como usarlo de la manera más sencilla posible. Cómputo Colmabrija." />
+        <meta property="og:description" content="TMEC - En este pequeño post te explicaremos que es zoom, para que sirve y como usarlo de la manera más sencilla posible. Cómputo Colmabrija." />
         <meta property="og:image" content="/images/zoom-banner.jpg" />
 
         <title>¿Qué es ZOOM y como instalarlo? - TMEC</title>
+        <meta name="description" content="TMEC - En este pequeño post te explicaremos que es zoom, para que sirve y como usarlo de la manera más sencilla posible. Cómputo Colmabrija" /> 
+        <meta name="keywords" content="tmec, colmabrija, compúto, tecnología, zoom, instalación, windows, reuniones." />  
+
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 
@@ -35,7 +38,7 @@ export default function Nosotros() {
         <section className="page-post">
           <h2 className="h1 mb">¿Qué es ZOOM y como instalarlo? - TMEC</h2>
           <h3 className="mb">En este pequeño post te explicaremos que es, para que sirve y como usarlo de la manera más sencilla posible.</h3>
-          <img src="/images/zoom-banner.jpg" alt="Zoom - TMEC" />
+          <img src="/images/zoom-banner.jpg" title="Banner de ZOOM" alt="Zoom - TMEC" />
 
 
           <h4 className="h3">¿Qué es zoom?</h4>
@@ -50,9 +53,9 @@ export default function Nosotros() {
           <p>Para Mobile debemos ingresar a nuestra tienda de aplicaciones y buscar zoom. Una vez seleccionada la App debemos dar clic en instalar.</p>
 
           <h5 className="h4">Computador</h5>
-          <p>Para computador deber ingresar al siguiente sitio web. <a href="https://zoom.us/download">https://zoom.us/download</a> Damos clic en descargar y esperamos que termine.</p>
+          <p>Para computador deber ingresar al siguiente sitio web. <a href="https://zoom.us/download" target="_blank">https://zoom.us/download</a> Damos clic en descargar y esperamos que termine.</p>
           <figure className="mb">
-            <img src="/images/zoom1.png" alt="Descargar Zoom - TMEC" />
+            <img src="/images/zoom1.png" title="Descarga de ZOOM" alt="Descargar Zoom - TMEC" />
           </figure>
 
 
@@ -79,7 +82,7 @@ export default function Nosotros() {
 
           <h5 className="h2">Video de como ingresar a una reunión atreves de su link.</h5>
           <figure>
-            <img src="/images/zoom-video-reunion.gif" alt="Como ingresar a una reunion en Zoom - TMEC" />
+            <img src="/images/zoom-video-reunion.gif" title="Video explicativo de como entrar a una reuinión en ZOOM" alt="Como ingresar a una reunion en Zoom - TMEC" />
           </figure>
 
         </section>

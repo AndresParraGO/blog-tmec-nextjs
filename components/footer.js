@@ -21,7 +21,7 @@ function Footer() {
         </div>
 
         <div className="footer__copy">
-          <p>© 2020 TMEC. Desarrollado por<a href="https://twitter.com/AndresParraGar4"> Andres Parra Garzón</a></p>
+          <p>© 2020 TMEC. Desarrollado por<a href="https://twitter.com/AndresParraGar4" target="_blank"> Andres Parra Garzón</a></p>
         </div>
       </div>
 

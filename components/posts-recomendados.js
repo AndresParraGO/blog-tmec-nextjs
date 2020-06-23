@@ -10,7 +10,7 @@ function PostsRecomendados() {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
-    setPosts(postsJSON.posts)
+    setPosts(postsJSON.posts.reverse())
   }, [])
 
   return (
@@ -22,7 +22,7 @@ function PostsRecomendados() {
             if (index < 3) {
               return (
                 <Link key={index} href={path}>
-                  <img key={index} src={img} alt={title + ' - TMEC'} />
+                  <img key={index} title={title} src={img} alt={title + ' - TMEC'} />
                 </Link>
               )
             }
