@@ -6,6 +6,7 @@ import Menu from '../../components/menu.js'
 import Footer from '../../components/footer.js'
 import PostsRecomendados from '../../components/posts-recomendados.js'
 
+import Share from '../../components/share.js'
 
 export default function Nosotros() {
   return (
@@ -33,6 +34,13 @@ export default function Nosotros() {
 
       <Header />
       <Menu />
+      <Share 
+        facebook="https://www.facebook.com/sharer/sharer.php?u=https://computo.now.sh/post/que-es-zoom" 
+        twitter="https://twitter.com/share?url=https://computo.now.sh/post/que-es-zoom" 
+        linkedin="https://www.linkedin.com/shareArticle?mini=true&url=https://computo.now.sh/post/que-es-zoom&title=&summary=Visita el siguiente artículo de tmec https://computo.now.sh/post/que-es-zoom&source="
+        web="que-es-zoom"
+      />
+
 
       <main className="container">
         <section className="page-post">
