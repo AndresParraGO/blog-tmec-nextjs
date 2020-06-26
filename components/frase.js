@@ -23,7 +23,7 @@ function Sentence() {
 
       <style jsx>{`
         .frase {
-          margin:5em 0;
+          padding:5em 0;
           position: relative;
         }
 
@@ -54,6 +54,10 @@ function Sentence() {
 
 
         @media screen and (max-width: 650px) {
+
+          .frase {
+            padding: 3em 0;
+          }
 
           .frase__img {
             width: 200px;
