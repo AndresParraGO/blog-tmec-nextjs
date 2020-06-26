@@ -20,11 +20,11 @@ export default function Nosotros() {
         <meta property="twitter:creator" content="@AndresParraGar4" />
         <meta property="twitter:title" content="Cómo proteger nuestras memorias de los virus - TMEC" />
         <meta property="twitter:description" content="TMEC - Como proteger nuestras memorias sin duda es importante. Veremos con unos sencillo pasos como protegerla de los virus. Cómputo Colmabrija." />
-        <meta property="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fproteger-memoria-banner.jpg?alt=media&token=ea3ac750-2e65-48c4-be9b-9250b97bb51c" />
+        <meta property="twitter:image" content="/images/proteger-memoria-banner.jpg" />
 
         <meta property="og:title" content="Cómo proteger nuestras memorias de los virus - TMEC" />
         <meta property="og:description" content="TMEC - Como proteger nuestras memorias sin duda es importante. Veremos con unos sencillo pasos como protegerla de los virus. Cómputo Colmabrija." />
-        <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fproteger-memoria-banner.jpg?alt=media&token=ea3ac750-2e65-48c4-be9b-9250b97bb51c" />
+        <meta property="og:image" content="/images/proteger-memoria-banner.jpg" />
 
         <title>Cómo proteger nuestras memorias de los virus - TMEC</title>
         <meta name="description" content="TMEC - Como proteger nuestras memorias sin duda es importante. Veremos con unos sencillo pasos como protegerla de los virus. Cómputo Colmabrija." /> 

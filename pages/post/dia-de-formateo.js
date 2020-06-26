@@ -20,11 +20,11 @@ export default function Nosotros() {
         <meta property="twitter:creator" content="@AndresParraGar4" />
         <meta property="twitter:title" content="Día de formateo y limpieza de los portatiles de clase - TMEC" />
         <meta property="twitter:description" content="TMEC - Es este día nos encargamos de formatear equipos, instalando su respectivo sistema operativo y los programas básicos del día a día. Cómputo Colmabrija." />
-        <meta property="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fproteger-memoria-banner.jpg?alt=media&token=ea3ac750-2e65-48c4-be9b-9250b97bb51c" />
+        <meta property="twitter:image" content="/images/dia-de-formateo-IMG-1.jpg" />
 
         <meta property="og:title" content="Día de formateo y limpieza de los portatiles de clase - TMEC" />
         <meta property="og:description" content="TMEC - Es este día nos encargamos de formatear equipos, instalando su respectivo sistema operativo y los programas básicos del día a día. Cómputo Colmabrija." />
-        <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fproteger-memoria-banner.jpg?alt=media&token=ea3ac750-2e65-48c4-be9b-9250b97bb51c" />
+        <meta property="og:image" content="/images/dia-de-formateo-IMG-1.jpg" />
 
         <title>Día de formateo y limpieza de los portatiles de clase - TMEC</title>
         <meta name="description" content="TMEC - Es este día nos encargamos de formatear equipos, instalando su respectivo sistema operativo y los programas básicos del día a día. Cómputo Colmabrija" /> 
