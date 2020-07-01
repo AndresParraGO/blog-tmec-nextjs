@@ -11,12 +11,13 @@ function Header() {
 
         <style jsx>{`
         .header {
-          padding: 2em 0;
+          padding-bottom: 2em;
           text-align:center;
         }
 
         .header__title {
-          color: var(--firstColor)
+          color: var(--firstColor);
+          font-family: 'Press Start 2P', cursive;
         }
 
 

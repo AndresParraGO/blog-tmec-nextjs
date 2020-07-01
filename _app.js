@@ -5,6 +5,8 @@ export default function App() {
   return (
     <div>
       <style jsx global>{`
+        
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
         @font-face {
           font-family: 'Raleway';
