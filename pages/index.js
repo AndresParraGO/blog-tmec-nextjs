@@ -8,6 +8,9 @@ import LastsPosts from '../components/lasts-posts.js'
 import Sentence from  '../components/frase.js'
 
 
+import Recomendados from '../components/recomendados.js'
+
+
 export default function Home() {
   return (
     <div>
@@ -37,6 +40,8 @@ export default function Home() {
         <Top />
         <LastsPosts />
         <Sentence />
+
+        <Recomendados />
       </main>
        
 
