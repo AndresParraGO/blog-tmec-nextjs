@@ -31,6 +31,7 @@ export default function Nosotros() {
         <meta name="keywords" content="tmec, colmabrija, compúto, tecnología, formateo, comunidad, estudiantes, colegio, técnica, programas, software." /> 
 
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
+        <script data-ad-client="ca-pub-2561679341949863" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Head>
 
       <Header />
