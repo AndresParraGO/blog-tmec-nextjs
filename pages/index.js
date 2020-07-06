@@ -13,6 +13,8 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
         <meta property="og:url" content="https://computo.now.sh/" />      
         <meta property="og:site_name" content="TMEC" />    
         <meta property="twitter:card" content="summary_large_image" />     
@@ -31,7 +33,6 @@ export default function Home() {
 
 
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
-        <script data-ad-client="ca-pub-2561679341949863" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Head>
       
       
