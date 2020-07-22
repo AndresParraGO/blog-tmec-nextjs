@@ -1,0 +1,39 @@
+.card {
+  border: 1px solid var(--borderColor);
+  box-shadow: 0 0 10px 0 var(--borderColor);
+  padding-bottom: 1em;
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+}
+
+.card__me {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.card__me > img {
+  margin-left:auto;
+  margin-bottom: 1em;
+  margin-right: auto;
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+.card__me__social {
+  margin-top: 1em;
+}
+
+.card__me__social a{
+  display: inline-block;
+  transition: all 200ms;
+  margin: 0 .5em;
+}
+
+.card__me__social > a img {
+  width: 30px;
+}
+
+.card__me__social > a img:hover {
+  transform: scale(.9)
+}

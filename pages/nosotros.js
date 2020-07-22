@@ -1,12 +1,16 @@
 import Head from 'next/head'
-import App from '../_app.js'
 
-import Top from '../components/top.js'
-import Footer from '../components/footer.js'
-import CardMe from '../components/card-me.js'
+import Top from '../components/top'
+import Footer from '../components/footer'
+import CardMe from '../components/card-me'
 
 
-export default function Nosotros() {
+import { getAllPosts } from '../lib/api'
+
+import './nosotros.css'
+
+
+export default function Nosotros( {allPosts} ) {
   return (
     <div>
       <Head>
@@ -30,7 +34,7 @@ export default function Nosotros() {
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 
-      <Top />
+      <Top allPosts={allPosts} />
 
       <main>
         <div className="container mt">
@@ -70,161 +74,21 @@ export default function Nosotros() {
       </main>
 
       <Footer />
-
-
-      {/* Styles Global */}
-      <App />
-
-      <style jsx>{`
-      .we-content {
-        display: grid;
-      }
-
-      .we__institution {
-        margin-bottom: 3em;
-
-      }
-
-      .we__institution .btn {
-        margin-top: 1em;
-        width: 100%;
-      }
-
-      .we__institution__title {
-        font-size: 2em;
-        text-transform: uppercase;
-      }
-
-
-
-      .we__institution__text img {
-        width: 100%;
-        margin-top: 1em;
-      }
-
-      .card__me__text {
-        margin-top: 1em;
-      }
-
-      .card__me__text h4 {
-        font-size: 1.5em;
-      }
-
-
-       
-      .we__institution__aside h3 {
-        font-size: 1.5em;
-        margin-bottom: 1em; 
-      }
-
-        
-      .about {
-        margin-top: 3em;
-
-        background-color: var(--bgBody);
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-
-        position: relative;
-
-        box-shadow: 0 0 10px 0 var(--borderColor);
-        border: 1px solid var(--borderColor);
-        border-radius: 5px;
-      }
-
-      .about .about__img {
-        width: 100%;
-        display: block;
-      }
-
-      .about__bg {
-        position: absolute;
-      }
-
-
-
-      .about__img {
-        border-radius: 5px 0 0 5px;
-      }
-
-      .about__text {
-        padding: 1em;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        position: relative;
-        z-index: 20;
-
-        overflow: hidden;
-      }
-
-      .about__title {
-        font-size: 2em;
-        padding-bottom: 0.5em;
-      }
-
-      .about__btn {
-        height: 40px;
-        padding: 0 1em;
-        background-color: var(--firstColor);
-        color: var(--textColorAlt);
-        line-height: 40px;
-        width: 200px;
-        margin-top: 1em;
-      }
-
-
-     .about__btn:hover {
-        background-color: var(--firstColorAlt);
-      }
-
-
-      .about__text__img {
-        display: none;
-      }
-
-
-      @media screen and (max-width: 650px) {
-        
-        .about {
-          grid-template-columns: repeat(1, 1fr); 
-        }
-
-        .about__text {
-          padding: 1em 0;
-        }
-
-
-      }
-  
-
-      @media screen and (min-width: 960px) {      
-
-        .we-content {
-          grid-template-columns: 60% 30%;
-          grid-column-gap:4em;
-        }
-       
-        .about__title {
-          margin-top: -3em;
-        }
-
-        .about__text__img {
-          display: block;
-          width: 100px;
-          position: absolute;
-          z-index: 10;
-
-          bottom: 30px;
-        }
-
-      }
-
-
-      `}</style>
     </div>
   )
+}
+
+export async function getStaticProps() {
+  const allPosts = getAllPosts([
+    'title',
+    'date',
+    'slug',
+    'author',
+    'coverImage',
+    'excerpt'
+  ])
+
+  return {
+    props: { allPosts }
+  }
 }

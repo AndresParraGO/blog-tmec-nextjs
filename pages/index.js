@@ -1,20 +1,16 @@
 import Head from 'next/head'
-import App from '../_app.js'
+
+import { getAllPosts } from '../lib/api'
+// import ListPosts from '../components/list-posts/'
+import Layout from '../components/layout/'
+import LastsPosts from '../components/lasts-posts'
+import Sentence from  '../components/frase'
 
 
-import Top from '../components/top.js'
-import Footer from '../components/footer.js'
-import LastsPosts from '../components/lasts-posts.js'
-import Sentence from  '../components/frase.js'
-
-
-
-export default function Home() {
+export default function Home( {allPosts} ) {
   return (
     <div>
       <Head>
-        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
         <meta property="og:url" content="https://computo.now.sh/" />      
         <meta property="og:site_name" content="TMEC" />    
         <meta property="twitter:card" content="summary_large_image" />     
@@ -35,16 +31,28 @@ export default function Home() {
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
       
-      
-      <main>
-        <Top />
-        <LastsPosts />
-        <Sentence />
-      </main>
-       
 
-      <Footer />
-      <App />
+      <Layout allPosts={allPosts}>
+        <LastsPosts allPosts={allPosts}/>
+        <Sentence />
+      </Layout>
+
     </div>
   )
+}
+
+
+export async function getStaticProps() {
+  const allPosts = getAllPosts([
+    'title',
+    'date',
+    'slug',
+    'author',
+    'coverImage',
+    'excerpt'
+  ])
+
+  return {
+    props: { allPosts }
+  }
 }

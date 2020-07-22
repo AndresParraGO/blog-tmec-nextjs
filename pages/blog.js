@@ -1,11 +1,14 @@
 import Head from 'next/head'
-import App from '../_app.js'
 
-import Top from '../components/top.js'
-import Footer from '../components/footer.js'
-import Posts from '../components/posts.js'
+import Top from '../components/top'
+import Footer from '../components/footer'
+import Posts from '../components/posts'
 
-export default function Blog() {
+import { getAllPosts } from '../lib/api'
+
+import './blog.css'
+
+export default function Blog( {allPosts} ) {
   return (
     <div>
       <Head>
@@ -28,25 +31,29 @@ export default function Blog() {
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 
-      <Top />
+      <Top allPosts={allPosts} />
 
       <main className="container">
         <h3>Posts</h3>
-        <Posts />
+        <Posts allPosts={allPosts} />
       </main>
 
       <Footer />
-
-
-      {/* Styles Global */}
-      <App />
-
-      <style jsx>{`
-        main h3 {
-          font-size: 3em;
-          margin: .5em 0;
-        }
-      `}</style>
     </div>
   )
+}
+
+export async function getStaticProps() {
+  const allPosts = getAllPosts([
+    'title',
+    'date',
+    'slug',
+    'author',
+    'coverImage',
+    'excerpt'
+  ])
+
+  return {
+    props: { allPosts }
+  }
 }

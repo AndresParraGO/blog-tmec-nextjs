@@ -1,0 +1,47 @@
+.footer {
+  background-color: var(--bgFooter);
+  padding: 4em 0;
+  text-align: center;
+}
+
+.footer__logo {
+  padding-bottom: 2em;
+
+}
+
+.footer__logo h4 {
+  font-size: 3em;
+  color:var(--textColorAlt);
+
+}
+
+.footer__logo h4 a {
+  color: inherit;
+}
+
+.footer__menu {
+  padding-bottom: 2em;
+
+}
+
+.footer__menu ul {
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer__menu ul a{
+  padding: 0 2em;
+  color:var(--textColorAlt);      
+}
+
+
+.footer__copy {
+  color:var(--secondTextColor);
+
+}
+
+.footer__copy a{
+  color:var(--secondColorAlt);
+  font-weight: 700;
+}

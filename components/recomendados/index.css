@@ -1,0 +1,14 @@
+.recomendados {
+  border: 5px solid red;
+  height: 300px;
+}
+
+
+.recomendados__item {
+  display: inline; 
+  width: 100px;
+}
+
+.recomendados__item img {
+  width: 100%;
+}
