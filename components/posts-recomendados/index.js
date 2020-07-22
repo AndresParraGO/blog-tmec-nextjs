@@ -1,31 +1,23 @@
 
 
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Link from 'next/link'
 
-
-import postsJSON from '../database/posts.json'
 
 import './index.css'
 
 
-function PostsRecomendados() {
-  const [posts, setPosts] = useState([])
-
-  useEffect(() => {
-    setPosts(postsJSON.posts.reverse())
-  }, [])
-
+function PostsRecomendados( {allPosts} ) {
   return (
     <div className="posts container">
       <h1>Posts Recomendados</h1>
       <section className="posts-recomendados">
         {
-          posts.map(({ title, img, path }, index) => {
+          allPosts.map(({ title, coverImage, slug }, index) => {
             if (index < 3) {
               return (
-                <Link key={index} href={path}>
-                  <img key={index} title={title} src={img} alt={title + ' - TMEC'} />
+                <Link key={index} href="/post/[slug]" as={`/post/${slug}`}>
+                  <img key={index} title={title} src={coverImage} alt={title + ' - TMEC'} />
                 </Link>
               )
             }

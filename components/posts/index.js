@@ -17,7 +17,7 @@ export default function Posts( {allPosts} ) {
               key={title}
               description={excerpt}
               img={coverImage}
-              path={slug}
+              slug={slug}
             />
           ) 
         })

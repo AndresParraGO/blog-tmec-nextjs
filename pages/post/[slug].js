@@ -8,8 +8,8 @@ import markdownToHtml from '../../lib/markdownToHtml'
 
 import Header from '../../components/header/'
 import Menu from '../../components/menu/'
+import PostsRecomendados from '../../components/posts-recomendados'
 
-// import ListPosts from '../../components/posts/'
 import PostBody from '../../components/post-body/'
 
 
@@ -47,6 +47,8 @@ function Post( {post, allPosts} ) {
                 <PostBody content={post.content} />
               </section>
             </main>
+
+            <PostsRecomendados  allPosts={allPosts} />
           </>
       )}
     </>

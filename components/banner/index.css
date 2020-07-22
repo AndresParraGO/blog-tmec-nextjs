@@ -4,7 +4,7 @@
 
 
 .banner__slider {
-  background-image: url(/images/dia-de-formateo-IMG-1.jpg);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-formateo-IMG-1.jpg?alt=media&token=b02f48fa-a158-4b71-9c92-ecfb520bde0a);
   width: 100%;
   padding: 10em 0;
   background-position: center;
@@ -63,7 +63,7 @@
 }
 
 .banner__slider__text div a {
-  color: $textColorAlt;
+  color: var(--textColorAlt);
   font-size: 1.5em;
   background-color: var(--firstColor);
   width: 50px;
@@ -82,7 +82,7 @@
 .banner__featured {
   width: 100%;
   background-color: var(--firstTextColor);
-  color: $textColorAlt;
+  color: var(--textColorAlt);
   padding: 1em;
 
   display: flex;
