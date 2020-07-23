@@ -1,5 +1,5 @@
 ---
-title: 'Algoritmo de mayor y menor'
+title: 'Algoritmo de número mayor y menor'
 excerpt: 'Algoritmo con diagrama de flujo. Algoritmo para saber cual es el número mayor y menor.'
 coverImage: 'https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fque-es-un-algoritmo-featured.png?alt=media&token=e1f6b025-de63-4829-92f5-908e0769bd8c'
 date: '20 de Mayo del 2020'
