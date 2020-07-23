@@ -41,6 +41,19 @@ function Post( {post, allPosts} ) {
         ) : (
           <>
             <Head>
+              <meta property="og:url" content={`https://computo.now.sh/post/${post.slug}`} />      
+              <meta property="og:site_name" content="TMEC" />    
+              <meta property="twitter:card" content="summary_large_image" />     
+              <meta property="twitter:site" content="@AndresParraGar4" />       
+              <meta property="twitter:creator" content="@AndresParraGar4" />      
+              <meta property="twitter:title" content={`${post.title} - TMEC`} />        
+              <meta property="twitter:description" content={post.excerpt} />       
+              <meta property="twitter:image" content={post.coverImage} />
+              <meta property="og:title" content="Técnica de Cómputo de Colmabrija - TMEC" /> 
+              <meta property="og:description" content={post.excerpt} />
+              <meta property="og:image" content={post.coverImage} />
+              <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
+
               <meta name="description" content={post.excerpt} />
               <title>{post.title}</title>
             </Head>
