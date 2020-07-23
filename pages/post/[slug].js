@@ -2,6 +2,8 @@
 import React from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import Disqus from "disqus-react"
+
 
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import markdownToHtml from '../../lib/markdownToHtml'
@@ -18,6 +20,13 @@ import './index.css'
 
 
 function Post( {post, allPosts} ) {
+  const disqusShortname = "tmec-1"
+  const disqusConfig = {
+    url: `https://computo.now.sh/post/${post.slug}`,
+    identifier: post.title.trim(),
+    title: post.title
+  }
+
   const router = useRouter()
   const { id } = router.query
 
@@ -49,7 +58,16 @@ function Post( {post, allPosts} ) {
               </section>
             </main>
 
+
+            <section className="comments">
+              <Disqus.DiscussionEmbed
+                shortname={disqusShortname}
+                config={disqusConfig}
+              />
+            </section>
+            
             <PostsRecomendados  allPosts={allPosts} />
+
             <Footer />
           </>
       )}

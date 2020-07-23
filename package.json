@@ -10,6 +10,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
+    "disqus-react": "^1.0.9",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.2",
     "next": "9.4.4",
