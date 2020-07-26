@@ -49,7 +49,7 @@ function Post( {post, allPosts} ) {
               <meta property="twitter:title" content={`${post.title} - TMEC`} />        
               <meta property="twitter:description" content={post.excerpt} />       
               <meta property="twitter:image" content={post.coverImage} />
-              <meta property="og:title" content="Técnica de Cómputo de Colmabrija - TMEC" /> 
+              <meta property="og:title" content={`${post.title} - TMEC`} /> 
               <meta property="og:description" content={post.excerpt} />
               <meta property="og:image" content={post.coverImage} />
               <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />

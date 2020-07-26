@@ -14,7 +14,7 @@ export default function Nosotros( {allPosts} ) {
   return (
     <div>
       <Head>
-        <meta property="og:url" content="https://computo.now.sh/" />
+        <meta property="og:url" content="https://computo.now.sh/nosotros" />
         <meta property="og:site_name" content="TMEC" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@AndresParraGar4" />
