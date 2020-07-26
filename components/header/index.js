@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Link from 'next/link'
 
 import './index.css'
 
@@ -8,7 +9,9 @@ function Header() {
     <>
       <header className="header">
         <div className="container">
-          <h1 className="header__title">TMEC</h1>
+          <Link href="/">
+            <a><h1 className="header__title">TMEC</h1></a>
+          </Link>
         </div>
       </header>
     </>

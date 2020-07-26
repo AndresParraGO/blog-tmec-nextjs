@@ -123,10 +123,6 @@
 
 @media screen and (max-width: 650px) {
 
-  .btn {
-    display: none;
-  }
-
   .banner__featured__post {
     margin: 1em 0;
   }

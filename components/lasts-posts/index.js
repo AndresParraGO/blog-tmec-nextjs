@@ -8,9 +8,9 @@ import './index.css'
 
 function LastsPosts( {allPosts} ) {
   return (
-    <div className="posts container">
+    <section className="posts container">
       <h1>Ultimos Posts</h1>
-      <section className="lasts-posts">
+      <article className="lasts-posts">
         {
           allPosts.map(({ title, excerpt, coverImage, slug}, index) => {
             if (index < 3) {
@@ -26,14 +26,14 @@ function LastsPosts( {allPosts} ) {
             }
           })
         }
-      </section>
+      </article>
 
       <div className="center">
         <Link href="/blog">
           <a className="btn">Más Posts</a>
         </Link>
       </div>
-    </div>
+    </section>
   );
 }
 

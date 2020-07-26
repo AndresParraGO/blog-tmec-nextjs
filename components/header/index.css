@@ -5,8 +5,8 @@
 }
 
 .header__title {
+  font-size: 3em;
   color: var(--firstColor);
-  font-family: 'Press Start 2P', cursive;
 }
 
 

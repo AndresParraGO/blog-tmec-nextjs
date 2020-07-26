@@ -17,7 +17,7 @@ export default function Blog( {allPosts} ) {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@AndresParraGar4" />
         <meta property="twitter:creator" content="@AndresParraGar4" />
-        <meta property="twitter:title" content="Blog de la Técnica de Cómputo de Colmabrija - TMEC" />
+        <meta property="twitter:title" content="Blog de la Técnica mantenimiento de equipos de Cómputo de Colmabrija - TMEC" />
         <meta property="twitter:description" content="TMEC - Blog de tmec , articulos de tecnología." />
         <meta property="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-la-mujer.jpg?alt=media&token=3f39fab5-ec8e-4b30-8d9a-9975308bfb5d" />
         <meta property="og:title" content="Blog de la Técnica de Cómputo de Colmabrija - TMEC" />

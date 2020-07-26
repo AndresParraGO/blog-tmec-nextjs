@@ -10,7 +10,7 @@ function Card( {title, description, img, slug} ) {
       <img src={img} alt={title} className="card__img" />
 
       <div className="post__text">
-        <h4 className="card__title">{title}</h4>
+        <h3 className="card__title">{title}</h3>
         <p className="card__description">{description}</p>
         <Link href="/post/[slug]" as={`/post/${slug}`}>
           <a className="post__btn">Leer más</a>

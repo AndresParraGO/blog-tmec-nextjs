@@ -39,7 +39,7 @@ export default function Nosotros( {allPosts} ) {
       <main>
         <div className="container mt">
           <div className="we-content">
-            <div>
+            <section>
               <article className="we__institution">
                 <header>
                     <h3 className="we__institution__title">Sena</h3>
@@ -62,7 +62,7 @@ export default function Nosotros( {allPosts} ) {
                   <a className="btn" href="https://colmabrija.edu.co/web/" target="_blank">Ver página oficial</a>
                 </div>
               </article>
-            </div>
+            </section>
 
             <aside className="we__institution__aside">
               <h3>Desarrollador del sitio web</h3>

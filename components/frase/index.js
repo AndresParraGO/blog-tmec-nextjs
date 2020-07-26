@@ -14,7 +14,7 @@ function Sentence() {
   }, [])
 
   return(
-    <div className="container">
+    <section className="container">
       <article className="frase">
         <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/figure-green.png?alt=media&token=ffcfe13a-c65b-4226-ab2e-f59552683cef" alt="Background figure" className="frase__img" />
 
@@ -23,7 +23,7 @@ function Sentence() {
           <p>{sentence.author}</p>
         </div>
       </article>
-    </div>
+    </section>
   )
 }
 
