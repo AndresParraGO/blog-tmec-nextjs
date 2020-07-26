@@ -46,11 +46,39 @@ video, img, iframe {
   margin-bottom: 2em;
 }
 
+.page-post .col {
+  display: flex;
+}
+
+.page-post .img-small {
+  width: 30%;
+}
+
+.page-post .img-medium {
+  width: 50%;
+}
+
+.page-post .img-atribucion {
+  color: var(--secondTextColor);
+  font-size: .9em;
+}
+
+.page-post .img-atribucion a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.page-post .img {
+  margin: 1em 0;
+}
+
 
 .page-post .post__date {
   font-style: italic;
   color:var(--secondTextColor);
 }
+
+
 
 @media screen and (max-width: 650px) {
 
@@ -58,5 +86,14 @@ video, img, iframe {
   .page-post h3{font-size: 1.8em;}
   .page-post h4{font-size: 1.2em;}
   .page-post h5{font-size: 1.1em;}
+
+  .page-post .img-small {
+    width: 50%;
+  }
+
+
+  .page-post .img-medium {
+    width:70%;
+  }
 
 }
