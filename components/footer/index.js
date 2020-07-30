@@ -16,7 +16,7 @@ function Footer() {
         <div className="footer__menu">
           <ul>
             <li><Link href="/"><a>Inicio</a></Link></li>
-            <li><Link href="/blog"><a>Blog</a></Link></li>
+            <li><Link href="/blog/posts"><a>Blog</a></Link></li>
             <li><Link href="/nosotros"><a>Nosotros</a></Link></li>
           </ul>
         </div>

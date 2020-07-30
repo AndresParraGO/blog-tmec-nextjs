@@ -8,6 +8,7 @@ author:
   picture: 'https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/jmGlZffY_400x400.jpg?alt=media&token=64e638e3-57c1-4d7d-83e0-7ee87a1726fa'
 ogImage:
   url: '/assets/blog/hola-mundo/banner.jpg'
+tag: 'otros'
 ---
 
 <iframe src="https://player.vimeo.com/video/420842065" width="640" height="640" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

@@ -8,6 +8,7 @@ author:
   picture: 'https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/jmGlZffY_400x400.jpg?alt=media&token=64e638e3-57c1-4d7d-83e0-7ee87a1726fa'
 ogImage:
   url: '/assets/blog/hola-mundo/banner.jpg'
+tag: 'correctivo'
 ---
 
 <iframe src="https://player.vimeo.com/video/429650476" width="640" height="351" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

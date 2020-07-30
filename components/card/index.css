@@ -34,12 +34,17 @@
 }
 
 .card__title {
-  font-size: 1.5em;
-  padding: 1em 0;
+  font-size: 1.3em;
 }
 
 .card__description {
+  width: 100%;
+  height: 100px;
+  padding: .2em 0;
   color: var(--secondTextColor);
+  white-space: wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .card__footer {

@@ -29,7 +29,7 @@ function LastsPosts( {allPosts} ) {
       </article>
 
       <div className="center">
-        <Link href="/blog">
+        <Link href="/blog/posts">
           <a className="btn">Más Posts</a>
         </Link>
       </div>

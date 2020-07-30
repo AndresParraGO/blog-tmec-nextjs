@@ -1,0 +1,27 @@
+
+
+
+.dropdown {
+  background-color: var(--bgFooter);
+  color: var(--textColorAlt);
+
+  position: absolute;
+  z-index: 1000;
+
+  margin-top: .5em;
+}
+
+.dropdown-item {
+  padding: 1em;
+  font-weight: 700;
+  color: var(--textColorAlt);
+}
+
+.dropdown-item a {
+  color: inherit;
+}
+
+
+.dropdown-item:hover {
+  background-color: var(--secondTextColor);
+}
