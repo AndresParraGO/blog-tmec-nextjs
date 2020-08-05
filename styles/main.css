@@ -142,6 +142,9 @@ main {
   margin: 2em 0;
 }
 
+.bold {
+  font-weight: 700;
+}
 
 
 /* CHANGES JS */

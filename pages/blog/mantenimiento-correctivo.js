@@ -42,6 +42,12 @@ export default function Blog( {filters, allPosts} ) {
 
       <main className="container">
         <h3>Mantenimiento Correctivo</h3>
+        <p>Se denomina <em>mantenimiento correctivo</em>, aquel que corrige los defectos observados en los equipamientos o instalaciones, es la forma más básica de mantenimiento y consiste en localizar averías o defectos para corregirlos o repararlos. <span className="bold">Fuente <a href="https://es.wikipedia.org/wiki/Mantenimiento_correctivo" target="_blank">Wikipedia</a></span></p>
+        
+        <br />
+        <hr />
+        <br />
+
         <Posts allPosts={filters} />
       </main>
 

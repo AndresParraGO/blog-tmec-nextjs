@@ -42,6 +42,12 @@ export default function Blog( {filters,allPosts} ) {
 
       <main className="container">
         <h3>Mantenimiento Preventivo</h3>
+        <p>El <em>mantenimiento preventivo</em> es el destinado a la conservación de equipos o instalaciones mediante la realización de revisión y limpieza que garanticen su buen funcionamiento y fiabilidad. El mantenimiento preventivo se realiza en equipos en condiciones de funcionamiento, por oposición al mantenimiento correctivo que repara o pone en condiciones de funcionamiento aquellos que dejaron de funcionar o están dañados. <span className="bold">Fuente <a href="https://es.wikipedia.org/wiki/Mantenimiento_preventivo#:~:text=En%20las%20operaciones%20de%20mantenimiento,su%20buen%20funcionamiento%20y%20fiabilidad.&text=El%20mantenimiento%20preventivo%20debe%20evitar,antes%20de%20que%20estos%20ocurran." target="_blank">Wikipedia</a></span></p>
+
+        <br />
+        <hr />
+        <br />
+  
         <Posts allPosts={filters} />
       </main>
 
