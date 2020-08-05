@@ -1,0 +1,27 @@
+
+
+.slider {
+  margin-bottom:2em;
+  
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+
+  overflow: hidden;
+  transition: all 300ms;
+
+}
+
+.container__slider {
+  display: flex;
+  position: relative;
+  transition: all 300ms;
+}
+
+.slider__img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}

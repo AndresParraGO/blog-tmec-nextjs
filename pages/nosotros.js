@@ -4,6 +4,7 @@ import Top from '../components/top'
 import Footer from '../components/footer'
 import CardMe from '../components/card-me'
 import Accessibility from '../components/accessibility/'
+import Slider from '../components/slider/'
 
 import { getAllPosts } from '../lib/api'
 
@@ -37,10 +38,13 @@ export default function Nosotros( {allPosts} ) {
       <Top allPosts={allPosts} />
       <Accessibility />
 
+      
+
       <main>
         <div className="container mt">
           <div className="we-content">
             <section>
+              <Slider />  
               <article className="we__institution">
                 <header>
                     <h3 className="we__institution__title">Sena</h3>
