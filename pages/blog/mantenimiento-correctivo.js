@@ -6,6 +6,7 @@ import Banner from '../../components/banner'
 
 import Footer from '../../components/footer'
 import Posts from '../../components/posts'
+import Accessibility from '../../components/accessibility/'
 
 import { getAllPosts } from '../../lib/api'
 
@@ -37,6 +38,7 @@ export default function Blog( {filters, allPosts} ) {
       <Header />
       <Menu />
       <Banner allPosts={allPosts} />
+      <Accessibility />
 
       <main className="container">
         <h3>Mantenimiento Correctivo</h3>

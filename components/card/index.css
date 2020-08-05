@@ -35,6 +35,7 @@
 
 .card__title {
   font-size: 1.3em;
+  color: var(--firstTextColor);
 }
 
 .card__description {

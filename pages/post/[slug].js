@@ -14,6 +14,7 @@ import Footer from '../../components/footer'
 import PostsRecomendados from '../../components/posts-recomendados'
 
 import PostBody from '../../components/post-body/'
+import Accessibility from '../../components/accessibility/'
 
 
 import './index.css'
@@ -60,6 +61,8 @@ function Post( {post, allPosts} ) {
           
             <Header />
             <Menu />
+
+            <Accessibility />
 
             <main className="container">
               <section className="content page-post">

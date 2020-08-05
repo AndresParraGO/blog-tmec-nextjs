@@ -1,0 +1,48 @@
+
+.accessibility {
+  background-color: var(--bgFooter);
+  color: var(--textColorAlt);
+
+  position: fixed;
+  top:25%;
+  right: 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+.accessibility__item {
+  padding: .2em;
+  cursor: pointer;
+  width: 90%;
+}
+
+.accessibility__item:hover {
+  background-color: var(--firstTextColor);
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+
+  .accessibility {
+    bottom: 0;
+    top: initial;
+    left: 0;
+  }
+
+  .accessibility__menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+/*
+
+@media screen and (min-width: 960px) {
+  .accessibility {
+    top: 0;
+    right: 0;
+
+  }
+}*/

@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Top from '../components/top'
 import Footer from '../components/footer'
 import CardMe from '../components/card-me'
-
+import Accessibility from '../components/accessibility/'
 
 import { getAllPosts } from '../lib/api'
 
@@ -35,6 +35,7 @@ export default function Nosotros( {allPosts} ) {
       </Head>
 
       <Top allPosts={allPosts} />
+      <Accessibility />
 
       <main>
         <div className="container mt">

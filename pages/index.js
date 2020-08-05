@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
 import { getAllPosts } from '../lib/api'
-// import ListPosts from '../components/list-posts/'
 import Layout from '../components/layout/'
 import LastsPosts from '../components/lasts-posts'
 import Sentence from  '../components/frase'

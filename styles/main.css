@@ -100,6 +100,7 @@ body {
   font-family: 'Raleway', sans-serif, verdana;
   font-size: var(--fzDefault);
   color: var(--firstTextColor);
+  background-color: var(--bgBody);
 }
 
 
@@ -139,4 +140,23 @@ li {
 
 main {
   margin: 2em 0;
+}
+
+
+
+/* CHANGES JS */
+
+.big-font-size {
+  --fzDefault: 20px;
+}
+
+.small-font-size {
+  --fzDefault: 16px;
+}
+
+.dark-mode{
+  --bgBody: #323232;
+  --firstTextColor: #fff;
+  --secondTextColor: #aaa;
+  --borderColor: rgba(0,0,0,.6);
 }

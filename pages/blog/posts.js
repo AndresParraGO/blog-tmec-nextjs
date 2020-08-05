@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Top from '../../components/top'
 import Footer from '../../components/footer'
 import Posts from '../../components/posts'
+import Accessibility from '../../components/accessibility/'
 
 import { getAllPosts } from '../../lib/api'
 import './blog.css'
@@ -31,6 +32,7 @@ export default function Blog( {allPosts} ) {
       </Head>
 
       <Top allPosts={allPosts} />
+      <Accessibility />
 
       <main className="container">
         <h3>Posts</h3>

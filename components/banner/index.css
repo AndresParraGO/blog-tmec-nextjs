@@ -81,7 +81,7 @@
 
 .banner__featured {
   width: 100%;
-  background-color: var(--firstTextColor);
+  background-color: #212121;
   color: var(--textColorAlt);
   padding: 1em;
 
