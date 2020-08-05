@@ -11,9 +11,10 @@
 }
 
 .accessibility__item {
-  padding: .2em;
+  padding: .3em;
   cursor: pointer;
-  width: 90%;
+  width: 100%;
+
   text-align: center;
 }
 
@@ -23,14 +24,15 @@
 
 .accessibility__item img {
   width: 15px;
+  display: inline-block;
 }
 
 
 @media screen and (max-width: 650px) {
 
   .accessibility {
-    bottom: 0;
     top: initial;
+    bottom: 0;
     left: 0;
   }
 
