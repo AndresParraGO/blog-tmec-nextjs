@@ -14,6 +14,7 @@
   padding: .2em;
   cursor: pointer;
   width: 90%;
+  text-align: center;
 }
 
 .accessibility__item:hover {
@@ -36,6 +37,8 @@
   .accessibility__menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
   }
 
 }
