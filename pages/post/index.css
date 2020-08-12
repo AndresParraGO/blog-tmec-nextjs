@@ -58,6 +58,10 @@ video, img, iframe {
   width: 50%;
 }
 
+.page-post .center {
+  text-align: center;
+}
+
 .page-post .img-atribucion {
   color: var(--secondTextColor);
   font-size: .9em;

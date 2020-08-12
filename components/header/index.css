@@ -13,7 +13,13 @@
 .header__title {
   font-size: 3em;
   color: var(--firstColor);
+  text-decoration: none;
 }
+
+.header__title h1 {
+  font-size: inherit;
+}
+
 
 .header__icon {
   width: 25px;

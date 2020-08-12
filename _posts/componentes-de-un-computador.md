@@ -12,7 +12,7 @@ tag: 'Otros'
 ---
 
 
-### Componentes Internos
+<!-- ### Componentes Internos
 
 * Fuente de poder
 * Procesador
@@ -28,4 +28,8 @@ tag: 'Otros'
 * Monitor
 * Mouse
 * Teclado
-* Bocinas
+* Bocinas -->
+
+<div class="mt mb center">
+  En Desarrollo...
+</div>

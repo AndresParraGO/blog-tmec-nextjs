@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.footer a {
+  text-decoration: none;
+}
+
 .footer__logo {
   padding-bottom: 2em;
 

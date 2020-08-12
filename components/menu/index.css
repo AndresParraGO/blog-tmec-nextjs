@@ -3,6 +3,10 @@
   background-color: var(--firstColor);
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar__menu {
   margin-left: auto;
   margin-right: auto;
@@ -20,7 +24,6 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.1em;
-
 }
 
 .nav__link:hover {

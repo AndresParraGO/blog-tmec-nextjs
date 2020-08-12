@@ -35,7 +35,7 @@ export default function Blog( {filters,allPosts} ) {
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 
-      <Header />
+      <Header allPosts={allPosts} />
       <Menu />
       <Banner allPosts={allPosts} />
       <Accessibility />

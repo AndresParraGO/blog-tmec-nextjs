@@ -35,14 +35,14 @@ export default function Blog( {filters, allPosts} ) {
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
 
-      <Header />
+      <Header allPosts={allPosts} />
       <Menu />
       <Banner allPosts={allPosts} />
       <Accessibility />
 
       <main className="container">
         <h3>Mantenimiento Correctivo</h3>
-        <p>Se denomina <em>mantenimiento correctivo</em>, aquel que corrige los defectos observados en los equipamientos o instalaciones, es la forma más básica de mantenimiento y consiste en localizar averías o defectos para corregirlos o repararlos. <span className="bold">Fuente <a href="https://es.wikipedia.org/wiki/Mantenimiento_correctivo" target="_blank">Wikipedia</a></span></p>
+        <p>Se denomina <em>mantenimiento correctivo</em>, aquel que corrige los defectos observados en los equipamientos o instalaciones, es la forma más básica de mantenimiento y consiste en localizar averías o defectos para corregirlos o repararlos. <span>Fuente <a href="https://es.wikipedia.org/wiki/Mantenimiento_correctivo" target="_blank">Wikipedia</a></span></p>
         
         <br />
         <hr />

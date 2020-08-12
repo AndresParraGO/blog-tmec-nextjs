@@ -105,7 +105,8 @@ body {
 
 
 a {
-  text-decoration: none;
+  /*text-decoration: none;*/
+  color: var(--firstTextColor);
 }
 
 li {
@@ -128,6 +129,7 @@ li {
   line-height: 35px;
   background-color: var(--firstColor);
   color: var(--textColorAlt);
+  text-decoration: none;
 }
 
 .btn:hover {

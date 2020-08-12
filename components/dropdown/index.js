@@ -12,9 +12,11 @@ function Dropdown( {list} ) {
         {
           list.map(element => {
             return(
-              <li key={element.link} className="dropdown-item">
-                <Link href={element.link}><a>{element.title}</a></Link>
-              </li>
+              <Link href={element.link}>
+                <li key={element.link} className="dropdown-item">
+                  <a>{element.title}</a>
+                </li>
+              </Link>
             )
           })
         }  
