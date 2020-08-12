@@ -56,10 +56,10 @@ function Post( {post, allPosts} ) {
               <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
 
               <meta name="description" content={post.excerpt} />
-              <title>{post.title}</title>
+              <title>{post.title} - TMEC</title>
             </Head>
           
-            <Header />
+            <Header allPosts={allPosts} />
             <Menu />
 
             <Accessibility />

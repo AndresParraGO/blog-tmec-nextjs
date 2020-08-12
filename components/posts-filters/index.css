@@ -1,0 +1,42 @@
+
+
+.posts__filters {
+  background-color:#fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding: 2em;
+
+  z-index: 10000;
+  text-align: left;
+}
+
+
+.posts__filters > article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.posts__filters-icon-close {
+  display: block;
+  background-color: var(--firstTextColor);
+  color: var(--textColorAlt);
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}

@@ -4,9 +4,20 @@
   text-align:center;
 }
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header__title {
   font-size: 3em;
   color: var(--firstColor);
+}
+
+.header__icon {
+  width: 25px;
+  cursor: pointer;
 }
 
 

@@ -9,7 +9,7 @@ import Significado from '../significado'
 function Top( {allPosts} ) {
   return (
     <>
-      <Header />
+      <Header allPosts={allPosts} />
       <Menu />
       <Banner allPosts={allPosts} />
       <Significado />
