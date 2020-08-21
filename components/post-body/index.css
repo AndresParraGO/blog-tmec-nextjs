@@ -5,3 +5,24 @@
 .markdown blockquote {
   color: var(--firstTextColor);
 }
+
+.markdown ul, .markdown ol {
+  margin-left: 1em;
+}
+
+.markdown .referencias {
+  margin-top: 3em;
+}
+
+.markdown .referencias h4 {
+  border-bottom: 1px solid #aaa;
+}
+
+.markdown .referencias ul {
+  list-style:circle;
+}
+
+.markdown .referencias li {
+  margin-bottom: .5em;
+  font-size: .9em;
+}

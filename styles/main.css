@@ -109,9 +109,9 @@ a {
   color: var(--firstTextColor);
 }
 
-li {
+/*li {
   list-style: none;
-}
+}*/
 
 
 .container {

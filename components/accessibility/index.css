@@ -13,18 +13,21 @@
 .accessibility__item {
   padding: .3em;
   cursor: pointer;
-  width: 100%;
+  /*width: 100%;*/
 
   text-align: center;
+  list-style: none;
 }
 
 .accessibility__item:hover {
-  background-color: var(--firstTextColor);
+  background-color: var(--firstColor);
 }
 
 .accessibility__item img {
   width: 15px;
-  display: inline-block;
+  height: 15px;
+  display: block;
+  margin: 0;
 }
 
 

@@ -34,7 +34,7 @@ function Accessibility() {
   return(
     <aside className="accessibility">
       <ul className="accessibility__menu">
-        <li className="accessibility__item" onClick={ () => darkMode() }><img src="/logos/icon_contrast.png" alt="Dark mode app" /></li>
+        <li className="accessibility__item" onClick={ () => darkMode() }><img src="/logos/icon_contrast.png" alt="Dark mode app - TMEC" /></li>
         <li className="accessibility__item" onClick={ () => changeFontSize('-') }>A-</li>
         <li className="accessibility__item" onClick={ () => changeFontSize('+') }>A+</li>
       </ul>

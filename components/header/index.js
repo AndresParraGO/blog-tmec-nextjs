@@ -13,11 +13,11 @@ function Header( {allPosts} ) {
     <>
       <header className="header">
         <div className="container">
-          <img className="header__icon" src="https://image.flaticon.com/icons/png/512/56/56763.png" />
+          <img className="header__icon" src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/icons%2Fopen-menu.svg?alt=media&token=3b86f8ef-a0bd-4cff-ba74-e8ab0d4b3f21" alt="Icon menu - TMEC" />
           <Link href="/">
             <a className="header__title"><h1>TMEC</h1></a>
           </Link>
-          <img className="header__icon" onClick={() => setShowSearch(!showSearch)} src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png" alt="" />
+          <img className="header__icon" onClick={() => setShowSearch(!showSearch)} src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/icons%2Fsearch.svg?alt=media&token=bb6c2608-667a-4b62-bd4e-a2c34fc57d9c" alt="icon search - TMEC" />
         </div>
 
         {showSearch 

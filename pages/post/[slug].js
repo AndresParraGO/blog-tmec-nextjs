@@ -66,7 +66,7 @@ function Post( {post, allPosts} ) {
 
             <main className="container">
               <section className="content page-post">
-                <h2 className="post__title">{post.title}</h2>
+                <h2 className="post__title">{post.title} - TMEC</h2>
                 <p className="post__date">{post.date}</p>
                 <p className="post__description">{post.excerpt}</p>
 

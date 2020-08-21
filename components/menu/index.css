@@ -17,6 +17,7 @@
 
 .nav__item {
   cursor: pointer;
+  list-style: none;
 }
 
 .nav__link {

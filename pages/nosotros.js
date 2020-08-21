@@ -44,7 +44,7 @@ export default function Nosotros( {allPosts} ) {
         <div className="container mt">
           <div className="we-content">
             <section>
-              <Slider />  
+              
               <article className="we__institution">
                 <header>
                     <h3 className="we__institution__title">Sena</h3>
