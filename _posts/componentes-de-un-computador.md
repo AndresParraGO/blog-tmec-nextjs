@@ -8,7 +8,7 @@ author:
   picture: 'https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/jmGlZffY_400x400.jpg?alt=media&token=64e638e3-57c1-4d7d-83e0-7ee87a1726fa'
 ogImage:
   url: '/assets/blog/hola-mundo/banner.jpg'
-tag: 'Otros'
+tag: 'otros'
 ---
 
 
