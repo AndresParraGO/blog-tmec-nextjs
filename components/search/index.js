@@ -27,7 +27,7 @@ function Search( {allPosts} ) {
       const separado = post.title.toLowerCase().split(' ')
 
       separado.forEach(el => {
-        if(input === el) {
+        if(input.toLowerCase() === el.toLowerCase()) {
           newPosts.push(post)
         }
       })

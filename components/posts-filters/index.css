@@ -15,9 +15,14 @@
 }
 
 
+.posts__filters h2 {
+  margin-bottom: 1em;
+}
+
 .posts__filters > article {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
 }
 
 .posts__filters-icon-close {
@@ -39,4 +44,20 @@
   position: absolute;
   top: 2em;
   right: 2em;
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+  .posts__filters > article {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media screen and (min-width: 960px) {
+  .posts__filters > article {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
