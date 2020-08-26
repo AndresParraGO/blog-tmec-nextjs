@@ -9,18 +9,37 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.posts-recomendados .post {
+  position: relative;
+  transition: all 200ms;
+  cursor: pointer;
+}
+
+.posts-recomendados .post:hover {
+  transform: scale(1.1);
+}
+
+.posts-recomendados .post .content {
+  position: absolute;
+  bottom: -2em;
+  left: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+
+  /*opacity: 0;*/
+}
+
 .posts-recomendados img {
   width: 100%;
-  height: 150px;
+  height: auto;
   object-fit: cover;
-
-  cursor: pointer;
-  transition:all 200ms;
 }
 
-.posts-recomendados img:hover {
-  opacity: .7;
-}
 
 
 @media screen and (max-width: 650px) {

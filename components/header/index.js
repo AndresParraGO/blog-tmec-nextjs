@@ -2,18 +2,23 @@
 import React, {useState} from 'react'
 import Link from 'next/link'
 
-import Search from '../search/'
+import Search from '../search/';
+import MenuLateral from '../menu-lateral';
+
 
 import './index.css'
 
 function Header( {allPosts} ) {
-  const [showSearch, setShowSearch] = useState(false)
+  const [showSearch, setShowSearch] = useState(false);
+  const [showMenuLateral, setShowMenuLateral] = useState(false);
 
   return(
     <>
       <header className="header">
         <div className="container">
-          <img className="header__icon" src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/icons%2Fopen-menu.svg?alt=media&token=3b86f8ef-a0bd-4cff-ba74-e8ab0d4b3f21" alt="Icon menu - TMEC" />
+          <img className="header__icon" onClick={() => {
+            document.getElementById('menulateral').style.left = '0'
+          }} src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/icons%2Fopen-menu.svg?alt=media&token=3b86f8ef-a0bd-4cff-ba74-e8ab0d4b3f21" alt="Icon menu - TMEC" />
           <Link href="/">
             <a className="header__title"><h1>TMEC</h1></a>
           </Link>
@@ -24,6 +29,10 @@ function Header( {allPosts} ) {
           ? <Search allPosts={allPosts} />
           : ''
         }
+
+        
+        <MenuLateral allPosts={allPosts} />
+      
       </header>
     </>
   )

@@ -1,0 +1,81 @@
+
+.menulateral {
+  width: 80%;
+  height: 100%;
+  background-color: var(--bgFooter);
+
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 10000;
+
+  padding: 1em;
+
+  overflow-y: scroll;
+}
+
+
+.menulateral__close {
+  color: #fff;
+
+  position: absolute;
+  right: 20px;
+  top:20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menulateral__close:hover {
+  color:var(--firstColorAlt);
+}
+
+
+.menulateral__form {
+  text-align: left;
+  color: #fff;
+  margin-top: 1em;
+}
+
+.menulateral__form--input {
+  padding: .6em 1em;
+  width: 80%;
+  float: left;
+}
+
+
+.menulateral__form--button {
+  display: block;
+  width: 20%;
+  float: left;
+  border: none;
+  border-radius: none;
+}
+
+
+.menulateral__posts {
+  margin-top: 5em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menulateral__posts article {
+  margin-bottom: 1em;
+  box-shadow: none;
+  border-color: #000;
+  color: #fff;
+}
+
+.menulateral__posts article p,
+.menulateral__posts article h3 {
+  margin: .2em;
+  color: inherit;
+}
+
+
+
+@media screen and (min-width: 960px) {
+  .menulateral {
+    width: 50%;
+  }
+}

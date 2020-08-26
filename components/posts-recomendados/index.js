@@ -17,7 +17,12 @@ function PostsRecomendados( {allPosts} ) {
             if (index < 3) {
               return (
                 <Link key={index} href="/post/[slug]" as={`/post/${slug}`}>
-                  <img key={index} title={title} src={coverImage} alt={title + ' - TMEC'} />
+                  <article className="post">
+                    <img key={index} title={title} src={coverImage} alt={title + ' - TMEC'} />
+                    <div className="content">
+                      <h5>{title}</h5>
+                    </div>
+                  </article>
                 </Link>
               )
             }
