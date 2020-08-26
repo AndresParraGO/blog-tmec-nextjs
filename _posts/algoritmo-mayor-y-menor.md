@@ -11,4 +11,7 @@ ogImage:
 tag: 'otros'
 ---
 
-<iframe src="https://player.vimeo.com/video/420842065" width="640" height="640" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<!-- <iframe src="https://player.vimeo.com/video/420842065" width="640" height="640" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+Ejemplo del programa en JavaScript <a href="https://codepen.io/andresparrago/pen/MWaZZGG" target="_blank">https://codepen.io/andresparrago/pen/MWaZZGG</a>
+
+<iframe width="560" height="415" src="https://www.youtube.com/embed/_Vxppq1rP1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
