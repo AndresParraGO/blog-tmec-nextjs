@@ -14,4 +14,18 @@ tag: 'otros'
 
 ### Pasos
 
-1. Uno
+1. Introducimos la memoria usb y la formateamos.
+2. Descargamos el programa rufus <a target="_blank" href="https://rufus.ie/">https://rufus.ie/</a>
+3. Descargamos la ISO del sistema operativo que queramos instalar.
+4. Abrimos rufus.
+5. Damos clic en Seleccionar y buscamos la ISO del sistema operativo que queremos instalar y damos doble clic.
+6. Una vez seleccionado debemos asegura que en la parte Esquema de partición este seleccionado MRB.
+7. Damos clic en Empezar y esperamos a que culmine el procedimiento.
+
+
+### Video de los pasos
+
+
+### Links externos
+
+* Rufus <a href="https://rufus.ie/">https://rufus.ie/</a>

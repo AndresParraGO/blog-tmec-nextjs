@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Top from '../components/top'
 import Footer from '../components/footer'
 import CardMe from '../components/card-me'
+import CardPerson from '../components/card-person'
 import Accessibility from '../components/accessibility/'
 import Slider from '../components/slider/'
 
@@ -70,8 +71,11 @@ export default function Nosotros( {allPosts} ) {
             </section>
 
             <aside className="we__institution__aside">
-              <h3>Desarrollador del sitio web</h3>
+              <h3>Grupo de trabajo</h3>
               <CardMe />
+              <CardPerson name="Jairo Blanco" img="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/jairo.jpeg?alt=media&token=e517d29e-f7a0-4543-9b21-a8dda8c0d17d" />
+              <CardPerson name="Cristian Quintero" img="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/cristian.jpg?alt=media&token=5dacbbb1-f2b7-4668-9727-cb87bc83c851" />
+              <CardPerson name="Jose Tarazona" img="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/jose.jpeg?alt=media&token=4517e8a8-cf76-4936-bacb-89c9620626e6" />
             </aside>
           </div>
         </div>
