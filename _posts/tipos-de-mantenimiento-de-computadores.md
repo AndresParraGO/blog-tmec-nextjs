@@ -18,8 +18,7 @@ Todos sabemos que con el paso del tiempo nuestra computadora corre por varios pe
 ### Mantenimiento preventivo
 
 <article class="img">
-  <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ftipos-de-mantenimiento%2Fpreventivo.jpg?alt=media&token=000be48d-ed6c-4b8f-9adb-7d5057c379c3" alt="Mantenimiento Preventivo - TMEC" title="Mantenimiento Preventivo" />
-  <a class="img-atribucion" href='https://www.freepik.es/fotos/tecnologia' target="_blank">Foto de Tecnología creado por freepik - www.freepik.es</a>
+  <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-formateo-IMG-7.jpg?alt=media&token=1e2cfc6b-075a-4e73-a2aa-0da7898c0718" alt="Mantenimiento Preventivo - TMEC" title="Mantenimiento Preventivo" />
 </article>
 
 Este tipo de mantenimiento se trata de como su propio nombre lo dice prevenir algún futuro daño.
@@ -35,8 +34,7 @@ Este tipo de mantenimiento se trata de como su propio nombre lo dice prevenir al
 ### Mantenimiento predictivo
 
 <article class="img">
-  <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ftipos-de-mantenimiento%2Fpredictivo.jpg?alt=media&token=a6f578dc-dd50-460d-a64e-c68a2bc25bb8" alt="Mantenimiento Predictivo - TMEC" title="Mantenimiento Predictivo" />
-  <a class="img-atribucion" href='https://www.freepik.es/fotos/tecnologia' target="_blank">Foto de Tecnología creado por freepik - www.freepik.es</a>
+  <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ftipos-de-mantenimiento%2Fspeccy.png?alt=media&token=60b2d497-7053-47cb-b092-474aae7632be" alt="Mantenimiento Predictivo - TMEC" title="Mantenimiento Predictivo" />
 </article>
 
 Este tipo de mantenimiento permite que se tomen decisiones antes de que ocurra o se agrave algún fallo de la computadora.
@@ -48,8 +46,7 @@ Es el seguimiento detenido que se le hace a la maquina buscando encontrar causas
 ### Mantenimiento correctivo
 
 <article class="img">
-  <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ftipos-de-mantenimiento%2Fcorrectivo.jpg?alt=media&token=621820a1-18f4-4528-ae1a-b9f22cdbd14a" alt="Mantenimiento Correctivo - TMEC" title="Mantenimiento Correctivo" />
-  <a class="img-atribucion" href='https://www.freepik.es/fotos/tecnologia' target="_blank">Foto de Tecnología creado por pressfoto - www.freepik.es</a>
+  <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fdia-de-formateo-IMG-6.jpg?alt=media&token=05da4d99-524b-4f84-a6f0-3f43c62a0d51" alt="Mantenimiento Correctivo - TMEC" title="Mantenimiento Correctivo" />
 </article>
 
 Nuestro deseo es que con los otros tipos de mantenimiento puedas NO llegar hasta este punto, pero si te hizo falta un cuidado y tu computadora sufrió algún daño grave aquí te explicamos que debes hacer.
