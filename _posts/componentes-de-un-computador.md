@@ -1,7 +1,7 @@
 ---
 title: 'Componentes de un computador'
 excerpt: 'En este post te mostramos los componentes internos y externos que conforman un computador para su correcto funcionamiento.'
-coverImage: 'https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fcomponentes-de-una-pc%2Fteclado.jpg?alt=media&token=126bdf9b-0337-4843-b112-f21cefe92f51'
+coverImage: 'https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fcomponentes-de-una-pc%2Fteclado.jpg?alt=media&token=e0df3d3f-4318-4ed1-a8a7-b7fa24218012'
 date: '12 de Agosto del 2020'
 author:
   name: Jairo Blanco
