@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   padding:2em 0;
-  background-color: var(--firstTextColor);
+  background-color: var(--bgFooterSecondary);
 }
 
 .footer__socios > div {
@@ -23,7 +23,7 @@
 }
 
 .footer__socios > div:hover {
-  background-color: var(--firstTextColor);
+  background-color: var(--bgFooterSecondary);
 }
 
 .footer__socios img {
