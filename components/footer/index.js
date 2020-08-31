@@ -8,6 +8,11 @@ import './index.css'
 function Footer() {
   return(
     <footer className="footer">
+      <div className="footer__socios">
+        <div><img title="Servicio Nacional de Aprendizaje | SENA" src="https://www.sena.edu.co/Style%20Library/alayout/images/logoSena.png" alt="SENA - TMEC" /></div>
+        <div><img title="INSTITUCIÓN TÉCNICO PADRE MANUEL BRICEÑO JAUREGUI FE Y ALEGRÍA" src="https://colmabrija.edu.co/web/wp-content/uploads/2019/07/escudo_web.png" alt="INSTITUCIÓN TÉCNICO PADRE MANUEL BRICEÑO JAUREGUI FE Y ALEGRÍA / COLMABRIJA - TMEC" /></div>
+      </div>
+
       <div className="container">
         <div className="footer__logo">
           <h4><Link href="/"><a>TMEC</a></Link></h4>
