@@ -13,7 +13,7 @@ function LastsPosts( {allPosts} ) {
       <article className="lasts-posts">
         {
           allPosts.map(({ title, excerpt, coverImage, slug}, index) => {
-            if (index < 3) {
+            if (index < 6) {
               return (
                 <Card
                   title={title}
