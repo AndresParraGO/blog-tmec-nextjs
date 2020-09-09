@@ -76,6 +76,7 @@ export default function Nosotros( {allPosts} ) {
               <CardPerson name="Jairo Blanco" img="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/jairo.jpeg?alt=media&token=e517d29e-f7a0-4543-9b21-a8dda8c0d17d" />
               <CardPerson name="Cristian Quintero" img="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/cristian.jpg?alt=media&token=5dacbbb1-f2b7-4668-9727-cb87bc83c851" />
               <CardPerson name="Jose Tarazona" img="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/jose.jpeg?alt=media&token=4517e8a8-cf76-4936-bacb-89c9620626e6" />
+              <CardPerson name="Sebastian Caceres" img="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/sebastian.jpg?alt=media&token=bee1ff9f-9534-4a7f-8cc9-dce715ed35a4" />
             </aside>
           </div>
         </div>
