@@ -1,10 +1,10 @@
 ---
 title: '¿Qué es la BIOS y como entramos en ella?'
 excerpt: 'Es un firmware instalado en una memoria ROM del computador. Es un sistema básico de entrada y salida que llevan todos los computadores, empieza a funcionar cuando encendemos el computador.'
-coverImage: 'https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Festado-de-disco-duro%2Fbanner.jpg?alt=media&token=2c110eb6-7399-4fcc-ae98-1dc52b37db86'
+coverImage: 'https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Fentrar-a-la-bios%2FBIOS%20.jpg?alt=media&token=88e384db-79a6-474f-9ec2-2919112a3115'
 date: '9 de Septiembre del 2020'
 author:
-  name: Cristian Quintero
+  name: Sebastian Caceres
   picture: 'https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/jmGlZffY_400x400.jpg?alt=media&token=64e638e3-57c1-4d7d-83e0-7ee87a1726fa'
 ogImage:
   url: '/assets/blog/hola-mundo/banner.jpg'
