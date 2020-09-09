@@ -36,7 +36,6 @@ function MenuLateral( {allPosts} ) {
     setNewPosts(filter(input))
   }, [input])
 
-  console.log(newPosts)
 
   return (
     <aside className="menulateral" id="menulateral">
