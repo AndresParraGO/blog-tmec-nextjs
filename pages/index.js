@@ -33,6 +33,14 @@ export default function Home( {allPosts} ) {
 
       <Layout allPosts={allPosts}>
         <LastsPosts allPosts={allPosts}/>
+
+        <div className="container">
+          <h5 style={{fontSize:'2em'}}>Videotutorial</h5>
+          <div className="videotutorial">
+            <iframe src="https://www.youtube.com/embed/WHgifzmj984" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
         <Sentence />
       </Layout>
 
