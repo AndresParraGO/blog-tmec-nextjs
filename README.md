@@ -1,30 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+<p align="center">
+  <img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
+  <h1 align="center">TMEC - Blog</h1>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  TMEC es el acronimo de técnica mantenimiento de equipos de cómputo. En esta página se sube todas las actividades que hacemos en clase.
+</p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/2.jpg?alt=media&token=62650b79-419c-4976-910f-9d281b7a5871" />
+<img src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/3.jpg?alt=media&token=265e034d-de33-43b3-acde-2a68e1bc1207" />
 
-## Learn More
+### 🏸❓ Qué es TMEC
 
-To learn more about Next.js, take a look at the following resources:
+TMEC es un proyecto productivo enfocado para los usuarios que tengan problemas o dudas con sus computadores personales. Tanto el mantenimiento preventivo y correctivo de los computadores. Desarrollado con ayuda del SENA(Servicio Nacional de Aprendizaje) y la Institución Técnico Padre Manuel Briceño Jauregui Fe y Alegría.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🎦 Presentación:
+<p><a href="https://www.youtube.com/watch?v=WHgifzmj984&t" target="_blank">https://www.youtube.com/watch?v=WHgifzmj984&t</a></p>
 
-## Deploy on Vercel
+<video src="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/VIDEOTUTORIAL%20-%20Proyecto%20Productivo%20SENA%20-%20TMEC.mp4?alt=media&token=7128c621-7833-4efa-8347-4d4596ef3687" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 👬 Equipo de trabajo:
+* Andrés Alfonso Parra Garzón
+* Cristian Quintero Sua
+* Jose Luis Tarazona
+* Jairo Blanco
+* Sebastian Caceres
+
+
+### 💻 Tecnologías Usadas
+
+* NextJS
+* React
+* Firebase
+* Disqus
