@@ -39,8 +39,6 @@ export default function Nosotros( {allPosts} ) {
       <Top allPosts={allPosts} />
       <Accessibility />
 
-      
-
       <main>
         <div className="container mt">
           <div className="we-content">
