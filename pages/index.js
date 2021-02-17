@@ -26,7 +26,6 @@ export default function Home( {allPosts} ) {
         <meta name="description" content="TMEC es una página web donde estan la evidencias de la técnica de mantenimineto de equipos de cómputo. Cómputo Colmabrija." /> 
         <meta name="keywords" content="tmec, colmabrija, compúto, tecnología, sena, técnica, blog, algoritmos, computadores, software." />  
 
-         <script data-ad-client="ca-pub-9485694791352153" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/tmec-api.appspot.com/o/images%2Ficon.png?alt=media&token=94753675-3700-40b4-9d77-a49531d24d4c" />
       </Head>
       
